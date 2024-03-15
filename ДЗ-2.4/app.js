@@ -5,8 +5,8 @@ let percentage = 15;
 let fullPrice = 10000; 
 let responsive = true; 
 
-// titleProject = prompt('Название проекта?');
-// screensValue = prompt('Какие типы экранов нужны?');
+titleProject = prompt('Название проекта?');
+screensValue = prompt('Какие типы экранов нужны?');
 
 responsive = prompt('Нужен ли респонсивный сайт?'); 
 
@@ -19,8 +19,8 @@ if (responsive == 'да') {
 }
 
 
-console.log(responsive);
-console.log(typeof responsive);
+// console.log(responsive);
+// console.log(typeof responsive);
 
 
 let service1 = prompt('Какой сервис нужен?');
