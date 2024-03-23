@@ -62,6 +62,7 @@ let getServicePercentPrices = function() {
 getServicePercentPrices();
 
 
+
 let getRollbackMessage = function() {
     if (fullPrice >= 50000) {
         console.log('Сделаем скидку в 10%');
